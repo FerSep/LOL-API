@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 1,
+        "name" : "top",
+        "icon" : "",
+        "campeones" :[48]
+    },
+    {
+        "id" : 2,
+        "name" : "jungle",
+        "icon" : "",
+        "campeones" : [ 45, 46, 47 ]
+    },
+    {
+        "id" : 3,
+        "name" : "mid",
+        "icon" : "",
+        "campeones" : [ 49, 50, 51 ]
+    },
+    {
+        "id" : 4,
+        "name" : "adc",
+        "icon" : "",
+        "campeones" : [ 52, 53 ]
+    },
+    {
+        "id" : 5,
+        "name" : "support",
+        "icon" : "",
+        "campeones" : [ 54, 55 ]
+    }
+]

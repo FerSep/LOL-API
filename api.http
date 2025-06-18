@@ -1,0 +1,6 @@
+###
+GET http://localhost:1234/campeones
+
+###
+GET http://localhost:1234/campeones/aatrox
+

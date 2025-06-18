@@ -1,0 +1,50 @@
+[ 
+    {
+        "id" : 1,
+        "name" : "luchador",
+        "description" : "",
+        "icon" : "",
+        "roles" : [1, 2, 3],
+        "campeones" : [44]
+    },
+    {
+        "id" : 2,
+        "name" : "tanque",
+        "description" : "",
+        "icon" : "",
+        "roles" : [1,2,3,5],
+        "campeones" : []
+    },
+    {
+        "id" : 3,
+        "name" : "asesino",
+        "description" : "",
+        "icon" : "",
+        "roles" : [4],
+        "campeones" : []
+    },
+    {
+        "id" : 4,
+        "name" : "mago",
+        "description" : "",
+        "icon" : "",
+        "roles" : [4, 5],
+        "campeones" : []
+    },
+    {
+        "id" : 5,
+        "name" : "tirador",
+        "description" : "",
+        "icon" : "",
+        "roles" : [2, 3, 4],
+        "campeones" : []
+    },
+    {
+        "id" : 6,
+        "name" : "soporte",
+        "description" : "",
+        "icon" : "",
+        "roles" : [2, 5],
+        "campeones" : []
+    }
+]

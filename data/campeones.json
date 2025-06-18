@@ -1,0 +1,353 @@
+[
+    {
+        "id" : 48,
+        "name" : "Aatrox",
+        "nickname": "La Espada De Los Oscuros",
+        "arquetipo" : [1,2],
+        "rol" : [1],
+        "sprites" :{
+            "icon" : "",
+            "splash-art": {
+                "base" :{
+                    "name": "Aatrox",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg"
+                },
+                "justiciaSuprema": {
+                    "name": "Aatrox Justicia Suprema",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_1.jpg"
+                },
+                "mecha": {
+                    "name": "Aatrox Mecha",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_2.jpg"
+                },
+                "cazadorDeLosMares": {
+                    "name": "Aatrox Cazador de los Mares",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_3.jpg"
+                },
+                "lunaSangrienta": {
+                    "name": "Aatrox Luna Sangrienta",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_7.jpg",
+                    "prestige" : {
+                        "name": "Aatrox Luna Sangrienta Prestige",
+                        "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_8.jpg"
+                    }
+                },
+                "victorioso" :{
+                    "name": "Aatrox Victorioso",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_9.jpg"
+                },
+                "odisea" :{
+                    "name": "Aatrox Odisea",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_11.jpg"
+                },
+                "eclipseLunar" :{
+                    "name": "Aatrox Eclipse Lunar",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_21.jpg"
+                }
+            }
+            
+        },
+        "habilidades" : {
+            "pasiva" :{
+                "name" : "Aspecto de la Muerte",
+                "icon" : "https://ddragon.leagueoflegends.com/cdn/15.11.1/img/passive/Aatrox_Passive.png",
+                "description" :"De forma periódica, el siguiente ataque básico de Aatrox inflige daño físico adicional y cura a Aatrox en función de la vida máxima del objetivo.",
+                "mp4" : "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0266/ability_0266_P1.mp4"
+            },
+            "q" :{
+                "name" : "",
+                "icon" : "",
+                "description" : "",
+                "mp4" : ""
+            },
+            "w" :{
+                "name" : "",
+                "icon" : "",
+                "description" : ""
+            },
+            "e" :{
+                "name" : "",
+                "icon" : "",
+                "description" : ""
+            },
+            "r" :{
+                "name" : "",
+                "icon" : "",
+                "description" : ""
+            }
+        },
+        "fecha" : {
+            "release" : "2013-06-13",
+            "update" : "2020-01-16"
+        }
+    },    
+    {
+        "id": 1,
+        "name": "Ahri",
+        "nickname": "La Vastaya de Nueve Colas",
+        "arquetipo": [4],
+        "rol": [3],
+        "sprites": {
+            "icon": "",
+            "splash-art": {
+                "base": {
+                    "name": "Ahri",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg"
+                },
+                "estrellaDelPop": {
+                    "name": "Ahri Estrella del Pop",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_6.jpg"
+                },
+                "guardianaEstelar": {
+                    "name": "Ahri Guardiana Estelar",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_7.jpg"
+                }
+            }
+        },
+        "habilidades": {
+            "pasiva": {
+                "name": "Robo de Esencia",
+                "icon": "https://ddragon.leagueoflegends.com/cdn/15.11.1/img/passive/Ahri_Passive.png",
+                "description": "Cada cierta cantidad de hechizos, Ahri se cura por cada enemigo alcanzado.",
+                "mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0103/ability_0103_P1.mp4"
+            },
+            "q": {
+                "name": "Orbe del Engaño",
+                "icon": "",
+                "description": "",
+                "mp4": ""
+            },
+            "w": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            },
+            "e": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            },
+            "r": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            }
+        },
+        "fecha": {
+            "release": "2011-12-14",
+            "update": "2022-01-20"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Akali",
+        "nickname": "La Asesina Renegada",
+        "arquetipo": [3, 4],
+        "rol": [3],
+        "sprites": {
+            "icon": "",
+            "splash-art": {
+                "base": {
+                    "name": "Akali",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg"
+                },
+                "proyecto": {
+                    "name": "Akali PROYECTO",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_10.jpg"
+                }
+            }
+        },
+        "habilidades": {
+            "pasiva": {
+                "name": "Marca del Asesino",
+                "icon": "https://ddragon.leagueoflegends.com/cdn/15.11.1/img/passive/Akali_Passive.png",
+                "description": "Hacer daño con habilidades marca al objetivo. Golpearlo con ataques básicos causa daño adicional.",
+                "mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0203/ability_0203_P1.mp4"
+            },
+            "q": {
+                "name": "",
+                "icon": "",
+                "description": "",
+                "mp4": ""
+            },
+            "w": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            },
+            "e": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            },
+            "r": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            }
+        },
+        "fecha": {
+            "release": "2010-05-11",
+            "update": "2018-07-18"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Alistar",
+        "nickname": "El Minotauro",
+        "arquetipo": [2, 6],
+        "rol": [5],
+        "sprites": {
+            "icon": "",
+            "splash-art": {
+                "base": {
+                    "name": "Alistar",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg"
+                },
+                "sktt1": {
+                    "name": "Alistar SKT T1",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_6.jpg"
+                }
+            }
+        },
+        "habilidades": {
+            "pasiva": {
+                "name": "Rugido Triunfal",
+                "icon": "https://ddragon.leagueoflegends.com/cdn/15.11.1/img/passive/Alistar_Passive.png",
+                "description": "Alistar sana a aliados cercanos y a sí mismo cada vez que aturde a enemigos o cuando mueren enemigos cercanos.",
+                "mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_P1.mp4"
+            },
+            "q": {
+                "name": "",
+                "icon": "",
+                "description": "",
+                "mp4": ""
+            },
+            "w": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            },
+            "e": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            },
+            "r": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            }
+        },
+        "fecha": {
+            "release": "2009-02-21",
+            "update": "2015-07-15"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Amumu",
+        "nickname": "La Momia Triste",
+        "arquetipo": [2, 4],
+        "rol": [2],
+        "sprites": {
+            "icon": "",
+            "splash-art": {
+                "base": {
+                    "name": "Amumu",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg"
+                },
+                "fiestaSorpresa": {
+                    "name": "Amumu Fiesta Sorpresa",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_5.jpg"
+                }
+            }
+        },
+        "habilidades": {
+            "pasiva": {
+                "name": "Toque Maldito",
+                "icon": "https://ddragon.leagueoflegends.com/cdn/15.11.1/img/passive/Amumu_Passive.png",
+                "description": "Los ataques de Amumu maldicen al objetivo, causando daño mágico adicional.",
+                "mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_P1.mp4"
+            },
+            "q": {
+                "name": "",
+                "icon": "",
+                "description": "",
+                "mp4": ""
+            },
+            "w": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            },
+            "e": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            },
+            "r": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            }
+        },
+        "fecha": {
+            "release": "2009-06-26",
+            "update": "2020-08-20"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Annie",
+        "nickname": "La Hija de la Oscuridad",
+        "arquetipo": [4],
+        "rol": [3],
+        "sprites": {
+            "icon": "",
+            "splash-art": {
+                "base": {
+                    "name": "Annie",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg"
+                },
+                "annieversario": {
+                    "name": "Annieversario",
+                    "url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_12.jpg"
+                }
+            }
+        },
+        "habilidades": {
+            "pasiva": {
+                "name": "Piromanía",
+                "icon": "https://ddragon.leagueoflegends.com/cdn/15.11.1/img/passive/Annie_Passive.png",
+                "description": "Después de lanzar 4 hechizos, el siguiente hechizo de daño de Annie aturde al enemigo.",
+                "mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0004/ability_0004_P1.mp4"
+            },
+            "q": {
+                "name": "",
+                "icon": "",
+                "description": "",
+                "mp4": ""
+            },
+            "w": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            },
+            "e": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            },
+            "r": {
+                "name": "",
+                "icon": "",
+                "description": ""
+            }
+        },
+        "fecha": {
+            "release": "2009-02-21",
+            "update": "2023-02-09"
+        }
+    }
+]
