@@ -1,7 +1,7 @@
 
 import roles from '../../../data/roles.json' with {type: 'json'};
 import campeones from '../../../data/campeones.json' with {type: 'json'};
-import { getArquetipo } from './relations';
+import { getArquetipo } from './relations.js';
 
 export class rolModel {
     static async getAllRoles() {
