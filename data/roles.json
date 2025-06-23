@@ -3,30 +3,30 @@
         "id" : 1,
         "name" : "top",
         "icon" : "",
-        "campeones" :[48]
+        "arquetipos" : [ 1, 2, 4 ]
     },
     {
         "id" : 2,
         "name" : "jungle",
         "icon" : "",
-        "campeones" : [ 45, 46, 47 ]
+        "arquetipos" : [1,2,3,4,5,6] 
     },
     {
         "id" : 3,
         "name" : "mid",
         "icon" : "",
-        "campeones" : [ 49, 50, 51 ]
+        "arquetipos" : [ 3, 4 ]
     },
     {
         "id" : 4,
         "name" : "adc",
         "icon" : "",
-        "campeones" : [ 52, 53 ]
+        "arquetipos" : [ 4,5]
     },
     {
         "id" : 5,
         "name" : "support",
         "icon" : "",
-        "campeones" : [ 54, 55 ]
+        "arquetipos" : [ 2,5,6 ]
     }
 ]

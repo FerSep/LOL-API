@@ -4,3 +4,10 @@ GET http://localhost:1234/campeones
 ###
 GET http://localhost:1234/campeones/aatrox
 
+###
+GET http://localhost:1234/arquetipos
+###
+GET http://localhost:1234/arquetipos/mago
+
+###
+GET http://localhost:1234/roles/top

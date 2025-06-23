@@ -1,5 +1,4 @@
 
-import campeones from '../../../data/campeones.json' with {type: 'json'};
 import arquetipos from '../../../data/arquetipos.json' with {type: 'json'};
 import roles from '../../../data/roles.json' with {type: 'json'};
 
@@ -29,18 +28,3 @@ export  function getRoles(array){
         }
     })
 }
-
-export  function getChampions(array){
-    return array.map(id =>{
-        const champ = campeones.find(champion => champion.id === id)
-        if (champ) {
-            return {
-                    id: champ.id,
-                    nombre: champ.name,
-                    url : `http://localhost:1234/campeones/${champ.name.toLocaleLowerCase()}`,
-                }
-        }
-    })
-}
-
-console.log(await getChampions([1,2]))
