@@ -1,4 +1,5 @@
 import z from 'zod';
+import { success } from 'zod/v4';
 
 //HACER ENTRICTAS TODAS LAS VALIDACIONES //
 
@@ -28,7 +29,7 @@ const habilidadesSchema = z.object({
     r: habilidad
 })
 
-export const champSchema = z.object({
+const champSchema = z.object({
     name : z.string().min(3, "is short name ").max(24, "long name"),
     nickname : z.string().min(3, "Required nickname").max(36, "long nickname"),
     arquetipo : z.array(z.number().int().positive().min(1, "no hay menores de uno").max(6, "no hay mayores de seis")),
@@ -44,10 +45,19 @@ export const champSchema = z.object({
     })
 })
 
+export function validateChamp(champ) {
+    try {
+        const result = champSchema.safeParse(champ);
+        return result;
+    } catch (error) {
+        return { success: false, details: error.errors};
+    }
+}
+
 
 
 const champ = {
-        "id": 1,
+        "id": 7,
         "name": "Ahri",
         "nickname": "La Vastaya de Nueve Colas",
         "arquetipo": [4],

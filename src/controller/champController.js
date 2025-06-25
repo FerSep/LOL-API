@@ -1,4 +1,5 @@
 import {champModel} from '../model/local/champModel.js';
+import {validateChamp} from '../validations/validateChamp.js';
 
 export class ChampController {
 
@@ -24,5 +25,24 @@ export class ChampController {
         } catch (error) {
             res.status(500).json({ error: 'Internal Server Error' });
         }
+    }
+
+    static async createChamp(req , res){
+        const champData = validateChamp(req.body);
+
+        if (!champData.success) {
+            return res.status(400).json({
+                error : 'bad request', 
+                errors: champData.error
+            });
+        }
+        return res.status(201).json(champData)
+        /*
+        try {
+            const newChamp = await champModel.createChamp(champData);
+            res.status(201).json(newChamp);
+        } catch (error) {
+            res.status(400).json({ error: 'Bad Request', message: error.message });
+        }*/
     }
 }

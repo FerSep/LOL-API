@@ -7,6 +7,7 @@ export class champModel {
             return {
                 nombre: champ.name,
                 nickname: champ.nickname,
+                icon : champ.sprites.icon,
                 url: `http://localhost:1234/campeones/${champ.name.toLocaleLowerCase()}`
             }
         })

@@ -20,6 +20,8 @@ champRouter.get('/arquetipos', arquetipoController.getAllArquetipos);
 
 champRouter.get('/arquetipos/:name', arquetipoController.getByArquetipo);
 
+champRouter.post('/campeones', ChampController.createChamp);
+
 //post 
 //patch
 
