@@ -10,4 +10,4 @@ GET http://localhost:1234/arquetipos
 GET http://localhost:1234/arquetipos/mago
 
 ###
-GET http://localhost:1234/roles/top
+GET http://localhost:1234/roles/

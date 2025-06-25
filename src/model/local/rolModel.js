@@ -40,5 +40,3 @@ function getByRole(id) {
         }) 
 }
 
-
-console.log(getByRole(1));

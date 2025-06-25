@@ -5,7 +5,6 @@ export class champModel {
     static async getChamp(){
         return campeones.map(champ => {
             return {
-                id: champ.id,
                 nombre: champ.name,
                 nickname: champ.nickname,
                 url: `http://localhost:1234/campeones/${champ.name.toLocaleLowerCase()}`
